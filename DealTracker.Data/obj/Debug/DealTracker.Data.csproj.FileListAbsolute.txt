@@ -1,0 +1,12 @@
+C:\Users\Parul\Documents\Visual Studio 2017\Projects\DealTracker\DealTracker.Data\bin\Debug\DealTracker.Data.dll
+C:\Users\Parul\Documents\Visual Studio 2017\Projects\DealTracker\DealTracker.Data\bin\Debug\DealTracker.Data.pdb
+C:\Users\Parul\Documents\Visual Studio 2017\Projects\DealTracker\DealTracker.Data\bin\Debug\JWT.dll
+C:\Users\Parul\Documents\Visual Studio 2017\Projects\DealTracker\DealTracker.Data\bin\Debug\Newtonsoft.Json.dll
+C:\Users\Parul\Documents\Visual Studio 2017\Projects\DealTracker\DealTracker.Data\bin\Debug\Twilio.dll
+C:\Users\Parul\Documents\Visual Studio 2017\Projects\DealTracker\DealTracker.Data\bin\Debug\Newtonsoft.Json.xml
+C:\Users\Parul\Documents\Visual Studio 2017\Projects\DealTracker\DealTracker.Data\bin\Debug\Twilio.xml
+C:\Users\Parul\Documents\Visual Studio 2017\Projects\DealTracker\DealTracker.Data\obj\Debug\DealTracker.Data.csprojAssemblyReference.cache
+C:\Users\Parul\Documents\Visual Studio 2017\Projects\DealTracker\DealTracker.Data\obj\Debug\DealTracker.Data.csproj.CoreCompileInputs.cache
+C:\Users\Parul\Documents\Visual Studio 2017\Projects\DealTracker\DealTracker.Data\obj\Debug\DealTracker.Data.csproj.CopyComplete
+C:\Users\Parul\Documents\Visual Studio 2017\Projects\DealTracker\DealTracker.Data\obj\Debug\DealTracker.Data.dll
+C:\Users\Parul\Documents\Visual Studio 2017\Projects\DealTracker\DealTracker.Data\obj\Debug\DealTracker.Data.pdb

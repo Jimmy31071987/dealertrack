@@ -1,0 +1,6 @@
+C:\Users\Parul\Documents\Visual Studio 2017\Projects\DealTracker\DealTracker.Object\bin\Debug\DealTracker.Object.dll
+C:\Users\Parul\Documents\Visual Studio 2017\Projects\DealTracker\DealTracker.Object\bin\Debug\DealTracker.Object.pdb
+C:\Users\Parul\Documents\Visual Studio 2017\Projects\DealTracker\DealTracker.Object\obj\Debug\DealTracker.Object.csprojAssemblyReference.cache
+C:\Users\Parul\Documents\Visual Studio 2017\Projects\DealTracker\DealTracker.Object\obj\Debug\DealTracker.Object.csproj.CoreCompileInputs.cache
+C:\Users\Parul\Documents\Visual Studio 2017\Projects\DealTracker\DealTracker.Object\obj\Debug\DealTracker.Object.dll
+C:\Users\Parul\Documents\Visual Studio 2017\Projects\DealTracker\DealTracker.Object\obj\Debug\DealTracker.Object.pdb

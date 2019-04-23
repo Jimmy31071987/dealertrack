@@ -1,0 +1,47 @@
+﻿.noprint
+{
+    display:none !important;
+}
+body{
+    zoom:80%;
+    font-size:11px;
+}
+table{
+
+}
+
+thead {
+    display: table-header-group;
+}
+
+tfoot {
+    display: table-header-group;
+}
+
+#Grid_wrapper .row:first-child{
+    display:none !important;
+}
+#Grid_wrapper .row:last-child {
+    display: none !important;
+}
+
+.padding-right-5px {
+  
+    padding-right: 15px !important;
+}
+
+.padding-left-5px{
+    padding-top:10px;
+    padding-left:20px !important;
+
+}
+.highcharts-container {
+    margin:auto !important;
+    display:block !important;
+    width:100% !important;
+}
+.highcharts-root {
+    margin: auto !important;
+    display: block !important;
+    width: 100% !important;
+}

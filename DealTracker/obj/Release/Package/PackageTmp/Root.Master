@@ -1,0 +1,143 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="Root.master.cs" Inherits="DealTracker.Root" %>
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head runat="server">
+    <%-- META--%>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+    <meta name="description" content="The leading provider of on-demand software for the auto industry in the United States" />
+    <meta name="keywords" content="desking, Special finance, Menu selling, Aftermarket, Compliance, Electronic contracting, Finance, F&I, Auto sales, Inventory management, Used cars, Vehicle valuation, Bookout, DMS,  Dealer management system, DMS, credit application, credit bureau, automotive financing" />
+
+    <meta name="rating" content="General" />
+    <meta name="language" content="english, EN" />
+    <meta name="robots" content="INDEX,FOLLOW" />
+    <meta name="revisit-after" content="5 Day" />
+    <meta name="author" content="www.parulbansal.xyz" />
+    <meta name="copyright" content="2019" />
+
+    <%-- TITLE--%>
+    <title>Dealertrack Canada, Inc.</title>
+    <link rel="icon" href="/Resources/Images/app/bg/ico/favicon.ico" />
+
+    <%-- VENDOR STYLES--%>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.0.0/css/bootstrap.css" />
+    <link href="//maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" />
+    <link href="/Resources/Styles/vendor/other/loading-bar.css" rel="stylesheet" />
+    <link href="/Resources/Styles/vendor/other/toastr.css" rel="stylesheet" />
+    <link href="//cdn.datatables.net/1.10.19/css/jquery.dataTables.min.css" rel="stylesheet" />
+    <link href="https://unpkg.com/gijgo@1.9.13/css/gijgo.min.css" rel="stylesheet" type="text/css" />
+
+    <%-- APP STYLES--%>
+    <link href="/Resources/Styles/app/site.css" rel="stylesheet" />
+    <link href="/Resources/Styles/app/print.css" rel="stylesheet" media="print" />
+
+    <asp:ContentPlaceHolder ID="Head" runat="server">
+    </asp:ContentPlaceHolder>
+</head>
+<body>
+    <form runat="server">
+        <!--[if IE]><div>For the best viewing experience, please use Google Chrome </div><![endif]-->
+        <div class="container-fluid">
+            <div class="row" id="header">
+                <div class="col-lg-4">
+                    <a href="/Home.aspx" id="headertitle">
+
+                        <img src="Resources/Images/app/bg/png/Dealertrack_DT_dark_RGB.png" alt="Dealer Tracker Logo" />
+                        <span>DealerTrack</span>
+                    </a>
+                </div>
+                <div class="offset-lg-6">
+                </div>
+                <div class="col-lg-2 noprint">
+                    <div class="row">
+                        <a href="#" id="headerprofile">
+                            <i class="fa fa-user-circle">&nbsp;admin</i>
+                        </a>&nbsp;&nbsp;&nbsp;
+                        <button type="button" id="mymodal" class="btn btn-success fa fa-upload noprint" data-toggle="modal" data-target="#myModal">&nbsp;&nbsp;Upload</button>
+                        <ul class="gear noprint">
+                            <li><a href="#" class="fa fa-gear"></a>
+                                <ul>
+                                    <li class="fa fa-check">&nbsp;HTML5</li>
+                                    <li class="fa fa-check">&nbsp;AngularJS</li>
+                                    <li class="fa fa-check">&nbsp;JavaScript</li>
+                                    <li class="fa fa-check">&nbsp;HighCharts</li>
+                                    <li class="fa fa-check">&nbsp;CSS3</li>
+                                    <li class="fa fa-check">&nbsp;Bootstrap</li>
+                                    <li class="fa fa-check">&nbsp;Front & Back end Validation</li>
+                                    <li class="fa fa-check">&nbsp;ASP.NET Webforms</li>
+                                    <li class="fa fa-check">&nbsp;API</li>
+                                    <li class="fa fa-check">&nbsp;AJAX</li>
+                                    <li class="fa fa-check">&nbsp;jQuery</li>
+                                    <li class="strikethrough">&nbsp;Database</li>
+                                </ul>
+                            </li>
+                        </ul>       
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-lg-12">
+                    <asp:ContentPlaceHolder ID="Main" runat="server"></asp:ContentPlaceHolder>
+                </div>
+            </div>
+
+            
+            <div class="row noprint">
+                <div id="footer">
+                <div class="offset-lg-2 col-lg-8">
+                    <div class="policy-box">
+                                <span>© Parul Bansal 2019  /  All rights reserved. </span>
+                    </div>
+                    <div class="header-social">
+                    <ul>
+                        <li><a href="https://www.facebook.com/profile.php?id=100018854860447" target="_blank"><svg class="svg-inline--fa fa-facebook-f fa-w-9" aria-hidden="true" focusable="false" data-prefix="fab" data-icon="facebook-f" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 264 512" data-fa-i2svg=""><path fill="currentColor" d="M215.8 85H264V3.6C255.7 2.5 227.1 0 193.8 0 124.3 0 76.7 42.4 76.7 120.3V192H0v91h76.7v229h94V283h73.6l11.7-91h-85.3v-62.7c0-26.3 7.3-44.3 45.1-44.3z"></path></svg><!-- <i class="fab fa-facebook-f"></i> --></a></li>
+                        <li><a href="https://www.linkedin.com/in/parul-bansal-1a213314a/" target="_blank"><svg class="svg-inline--fa fa-linkedin fa-w-14" aria-hidden="true" focusable="false" data-prefix="fab" data-icon="linkedin" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512" data-fa-i2svg=""><path fill="currentColor" d="M416 32H31.9C14.3 32 0 46.5 0 64.3v383.4C0 465.5 14.3 480 31.9 480H416c17.6 0 32-14.5 32-32.3V64.3c0-17.8-14.4-32.3-32-32.3zM135.4 416H69V202.2h66.5V416zm-33.2-243c-21.3 0-38.5-17.3-38.5-38.5S80.9 96 102.2 96c21.2 0 38.5 17.3 38.5 38.5 0 21.3-17.2 38.5-38.5 38.5zm282.1 243h-66.4V312c0-24.8-.5-56.7-34.5-56.7-34.6 0-39.9 27-39.9 54.9V416h-66.4V202.2h63.7v29.2h.9c8.9-16.8 30.6-34.5 62.9-34.5 67.2 0 79.7 44.3 79.7 101.9V416z"></path></svg><!-- <i class="fab fa-linkedin"></i> --></a></li>
+                        <li><a href="https://twitter.com/Bansal10Parul" target="_blank"><svg class="svg-inline--fa fa-twitter fa-w-16" aria-hidden="true" focusable="false" data-prefix="fab" data-icon="twitter" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" data-fa-i2svg=""><path fill="currentColor" d="M459.37 151.716c.325 4.548.325 9.097.325 13.645 0 138.72-105.583 298.558-298.558 298.558-59.452 0-114.68-17.219-161.137-47.106 8.447.974 16.568 1.299 25.34 1.299 49.055 0 94.213-16.568 130.274-44.832-46.132-.975-84.792-31.188-98.112-72.772 6.498.974 12.995 1.624 19.818 1.624 9.421 0 18.843-1.3 27.614-3.573-48.081-9.747-84.143-51.98-84.143-102.985v-1.299c13.969 7.797 30.214 12.67 47.431 13.319-28.264-18.843-46.781-51.005-46.781-87.391 0-19.492 5.197-37.36 14.294-52.954 51.655 63.675 129.3 105.258 216.365 109.807-1.624-7.797-2.599-15.918-2.599-24.04 0-57.828 46.782-104.934 104.934-104.934 30.213 0 57.502 12.67 76.67 33.137 23.715-4.548 46.456-13.32 66.599-25.34-7.798 24.366-24.366 44.833-46.132 57.827 21.117-2.273 41.584-8.122 60.426-16.243-14.292 20.791-32.161 39.308-52.628 54.253z"></path></svg><!-- <i class="fab fa-twitter"></i> --></a></li>
+                        <li>
+                            <a target="_blank" class="donateme" href="https://www.paypal.com/donate/?token=FQal69sMvBzp7ahZ3WYcQtr4jrKBlkq3RHCM_IuMC7_aeI0ocT-5Zxllik9toAG03EG7Jm&country.x=CA&locale.x=">Donate me</a>
+                        </li>
+                        <li><a href="https://parulbansal.xyz" target="_blank" class="footernote">designed & developed by Parul Bansal</a></li>
+                    </ul>
+                </div>
+                </div></div>
+            </div>
+        </div>
+    </form>
+
+    <%-- VENDOR SCRIPTS--%>
+    <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.4/jquery.min.js"></script>
+    <script type="text/javascript" src="/Resources/Scripts/vendor/other/popper.js"></script>
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.0.0/js/bootstrap.js"></script>
+    <script type="text/javascript" src="https://unpkg.com/gijgo@1.9.13/js/gijgo.min.js" ></script>
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/angular.js/1.7.8/angular.js"></script>
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/angular.js/1.7.8/angular-route.js"></script>
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/angular.js/1.7.8/angular-cookies.js"></script>
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/angular.js/1.7.8/angular-sanitize.js"></script>
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/ngStorage/0.3.10/ngStorage.js"></script>
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/chart.js@2.8.0/dist/Chart.min.js"></script>
+    <script type="text/javascript" src="//cdn.jsdelivr.net/angular.chartjs/latest/angular-chart.min.js"></script>
+    <script type="text/javascript" src="https://code.highcharts.com/highcharts.js"></script>
+    <script type="text/javascript" src="https://code.highcharts.com/modules/exporting.js"></script>
+    <script type="text/javascript" src="https://code.highcharts.com/modules/export-data.js"></script>
+    <script type="text/javascript" src="//cdn.datatables.net/1.10.19/js/jquery.dataTables.min.js"></script>
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/FileSaver.js/1.3.8/FileSaver.js"></script>
+
+    <script type="text/javascript" src="/Resources/Scripts/vendor/other/loading-bar.js"></script>
+    <script type="text/javascript" src="/Resources/Scripts/vendor/other/toastr.js"></script>
+    <script type="text/javascript" src="/Resources/Scripts/vendor/other/datatables.js"></script>
+
+    <%-- APP SCRIPTS--%>
+
+    <script type="text/javascript" src="/Resources/Scripts/app/modules/common.core.js"></script>
+    <script type="text/javascript" src="/Resources/Scripts/app/modules/common.ui.js"></script>
+    <script type="text/javascript" src="/Resources/Scripts/app/directives/FileUpload.js"></script>
+    <script type="text/javascript" src="Resources/Scripts/app/services/fileApiService.js"></script>
+    <script type="text/javascript" src="/Resources/Scripts/app/services/apiService.js"></script>
+    <script type="text/javascript" src="/Resources/Scripts/app/services/notificationService.js"></script>
+    <script type="text/javascript" src="/Resources/Scripts/app/Components/config.js"></script>
+
+    <script type="text/javascript" src="/Resources/Scripts/app/Components/home/module/homeModule.js"></script>
+    <script type="text/javascript" src="/Resources/Scripts/app/Components/home/controller/homeController.js"></script>
+
+</body>
+</html>

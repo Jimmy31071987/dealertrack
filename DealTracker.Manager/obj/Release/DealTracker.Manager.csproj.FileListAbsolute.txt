@@ -1,0 +1,12 @@
+C:\Users\Parul\Documents\Visual Studio 2017\Projects\DealTracker\DealTracker.Manager\bin\Release\DealTracker.Manager.dll
+C:\Users\Parul\Documents\Visual Studio 2017\Projects\DealTracker\DealTracker.Manager\bin\Release\DealTracker.Manager.pdb
+C:\Users\Parul\Documents\Visual Studio 2017\Projects\DealTracker\DealTracker.Manager\bin\Release\DealTracker.Object.dll
+C:\Users\Parul\Documents\Visual Studio 2017\Projects\DealTracker\DealTracker.Manager\bin\Release\JWT.dll
+C:\Users\Parul\Documents\Visual Studio 2017\Projects\DealTracker\DealTracker.Manager\bin\Release\Newtonsoft.Json.dll
+C:\Users\Parul\Documents\Visual Studio 2017\Projects\DealTracker\DealTracker.Manager\bin\Release\DealTracker.Object.pdb
+C:\Users\Parul\Documents\Visual Studio 2017\Projects\DealTracker\DealTracker.Manager\bin\Release\Newtonsoft.Json.xml
+C:\Users\Parul\Documents\Visual Studio 2017\Projects\DealTracker\DealTracker.Manager\obj\Release\DealTracker.Manager.csprojAssemblyReference.cache
+C:\Users\Parul\Documents\Visual Studio 2017\Projects\DealTracker\DealTracker.Manager\obj\Release\DealTracker.Manager.csproj.CoreCompileInputs.cache
+C:\Users\Parul\Documents\Visual Studio 2017\Projects\DealTracker\DealTracker.Manager\obj\Release\DealTracker.Manager.csproj.CopyComplete
+C:\Users\Parul\Documents\Visual Studio 2017\Projects\DealTracker\DealTracker.Manager\obj\Release\DealTracker.Manager.dll
+C:\Users\Parul\Documents\Visual Studio 2017\Projects\DealTracker\DealTracker.Manager\obj\Release\DealTracker.Manager.pdb

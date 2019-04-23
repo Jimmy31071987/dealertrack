@@ -1,0 +1,23 @@
+﻿body{
+    zoom:80%;
+}
+
+.dataTables_wrapper .row{
+    display:none;
+}
+
+div.summary .key{
+    font-size:12px;
+}
+div.summary .value {
+    font-size: 14px;
+}
+
+ul.SummaryDashboard li{
+    width:23%;
+}
+div.summary {
+    height: 100px;
+    width: 100%;
+}
+

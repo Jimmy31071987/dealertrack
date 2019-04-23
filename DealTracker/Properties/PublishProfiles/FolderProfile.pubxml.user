@@ -1,0 +1,181 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+This file is used by the publish/package process of your Web project. You can customize the behavior of this process
+by editing this MSBuild file. In order to learn more about this please visit https://go.microsoft.com/fwlink/?LinkID=208121. 
+-->
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <TimeStampOfAssociatedLegacyPublishXmlFile />
+    <_PublishTargetUrl>C:\Users\Parul\Documents\Visual Studio 2017\Projects\DealTracker\DealTracker\bin\Release\Publish</_PublishTargetUrl>
+  </PropertyGroup>
+  <ItemGroup>
+    <File Include="bin/DealTracker.dll">
+      <publishTime>03/29/2019 09:10:01</publishTime>
+    </File>
+    <File Include="bin/DealTracker.pdb">
+      <publishTime>03/29/2019 09:10:01</publishTime>
+    </File>
+    <File Include="bin/Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll">
+      <publishTime>05/24/2018 14:38:22</publishTime>
+    </File>
+    <File Include="bin/roslyn/csc.exe">
+      <publishTime>05/24/2018 14:38:22</publishTime>
+    </File>
+    <File Include="bin/roslyn/csc.exe.config">
+      <publishTime>05/24/2018 14:38:22</publishTime>
+    </File>
+    <File Include="bin/roslyn/csc.rsp">
+      <publishTime>05/24/2018 14:38:22</publishTime>
+    </File>
+    <File Include="bin/roslyn/csi.exe">
+      <publishTime>05/24/2018 14:38:22</publishTime>
+    </File>
+    <File Include="bin/roslyn/csi.rsp">
+      <publishTime>05/24/2018 14:38:22</publishTime>
+    </File>
+    <File Include="bin/roslyn/Microsoft.Build.Tasks.CodeAnalysis.dll">
+      <publishTime>05/24/2018 14:38:22</publishTime>
+    </File>
+    <File Include="bin/roslyn/Microsoft.CodeAnalysis.CSharp.dll">
+      <publishTime>05/24/2018 14:38:22</publishTime>
+    </File>
+    <File Include="bin/roslyn/Microsoft.CodeAnalysis.CSharp.Scripting.dll">
+      <publishTime>05/24/2018 14:38:22</publishTime>
+    </File>
+    <File Include="bin/roslyn/Microsoft.CodeAnalysis.dll">
+      <publishTime>05/24/2018 14:38:22</publishTime>
+    </File>
+    <File Include="bin/roslyn/Microsoft.CodeAnalysis.Scripting.dll">
+      <publishTime>05/24/2018 14:38:22</publishTime>
+    </File>
+    <File Include="bin/roslyn/Microsoft.CodeAnalysis.VisualBasic.dll">
+      <publishTime>05/24/2018 14:38:22</publishTime>
+    </File>
+    <File Include="bin/roslyn/Microsoft.CSharp.Core.targets">
+      <publishTime>05/24/2018 14:38:22</publishTime>
+    </File>
+    <File Include="bin/roslyn/Microsoft.DiaSymReader.Native.amd64.dll">
+      <publishTime>05/24/2018 14:38:22</publishTime>
+    </File>
+    <File Include="bin/roslyn/Microsoft.DiaSymReader.Native.x86.dll">
+      <publishTime>05/24/2018 14:38:22</publishTime>
+    </File>
+    <File Include="bin/roslyn/Microsoft.VisualBasic.Core.targets">
+      <publishTime>05/24/2018 14:38:22</publishTime>
+    </File>
+    <File Include="bin/roslyn/System.AppContext.dll">
+      <publishTime>05/24/2018 14:38:22</publishTime>
+    </File>
+    <File Include="bin/roslyn/System.Collections.Immutable.dll">
+      <publishTime>05/24/2018 14:38:22</publishTime>
+    </File>
+    <File Include="bin/roslyn/System.Diagnostics.StackTrace.dll">
+      <publishTime>05/24/2018 14:38:22</publishTime>
+    </File>
+    <File Include="bin/roslyn/System.IO.FileSystem.dll">
+      <publishTime>05/24/2018 14:38:22</publishTime>
+    </File>
+    <File Include="bin/roslyn/System.IO.FileSystem.Primitives.dll">
+      <publishTime>05/24/2018 14:38:22</publishTime>
+    </File>
+    <File Include="bin/roslyn/System.Reflection.Metadata.dll">
+      <publishTime>05/24/2018 14:38:22</publishTime>
+    </File>
+    <File Include="bin/roslyn/vbc.exe">
+      <publishTime>05/24/2018 14:38:22</publishTime>
+    </File>
+    <File Include="bin/roslyn/vbc.exe.config">
+      <publishTime>05/24/2018 14:38:22</publishTime>
+    </File>
+    <File Include="bin/roslyn/vbc.rsp">
+      <publishTime>05/24/2018 14:38:22</publishTime>
+    </File>
+    <File Include="bin/roslyn/VBCSCompiler.exe">
+      <publishTime>05/24/2018 14:38:22</publishTime>
+    </File>
+    <File Include="bin/roslyn/VBCSCompiler.exe.config">
+      <publishTime>05/24/2018 14:38:22</publishTime>
+    </File>
+    <File Include="Global.asax">
+      <publishTime>03/28/2019 19:55:18</publishTime>
+    </File>
+    <File Include="Home.aspx">
+      <publishTime>03/29/2019 09:09:47</publishTime>
+    </File>
+    <File Include="Login.aspx">
+      <publishTime>03/28/2019 20:20:53</publishTime>
+    </File>
+    <File Include="Resources/Images/app/bg/gif/split_bg.gif">
+      <publishTime>03/28/2019 22:24:04</publishTime>
+    </File>
+    <File Include="Resources/Images/app/bg/ico/favicon.ico">
+      <publishTime>03/28/2019 22:33:27</publishTime>
+    </File>
+    <File Include="Resources/Images/app/bg/png/Dealertrack_DT_dark_RGB.png">
+      <publishTime>03/28/2019 22:27:49</publishTime>
+    </File>
+    <File Include="Resources/Images/app/bg/png/sort_asc.png">
+      <publishTime>03/29/2019 00:15:42</publishTime>
+    </File>
+    <File Include="Resources/Images/app/bg/png/sort_asc_disabled.png">
+      <publishTime>03/29/2019 00:15:42</publishTime>
+    </File>
+    <File Include="Resources/Images/app/bg/png/sort_both.png">
+      <publishTime>03/29/2019 00:15:42</publishTime>
+    </File>
+    <File Include="Resources/Images/app/bg/png/sort_desc.png">
+      <publishTime>03/29/2019 00:15:42</publishTime>
+    </File>
+    <File Include="Resources/Images/app/bg/png/sort_desc_disabled.png">
+      <publishTime>03/29/2019 00:15:42</publishTime>
+    </File>
+    <File Include="Resources/Scripts/app/Components/config.js">
+      <publishTime>03/28/2019 22:02:00</publishTime>
+    </File>
+    <File Include="Resources/Scripts/app/Components/home/controller/homeController.js">
+      <publishTime>03/29/2019 08:50:46</publishTime>
+    </File>
+    <File Include="Resources/Scripts/app/Components/home/module/homeModule.js">
+      <publishTime>03/28/2019 22:01:09</publishTime>
+    </File>
+    <File Include="Resources/Scripts/app/modules/common.core.js">
+      <publishTime>03/28/2019 23:45:21</publishTime>
+    </File>
+    <File Include="Resources/Scripts/app/modules/common.ui.js">
+      <publishTime>03/28/2019 22:03:10</publishTime>
+    </File>
+    <File Include="Resources/Scripts/app/services/apiService.js">
+      <publishTime>03/28/2019 21:40:14</publishTime>
+    </File>
+    <File Include="Resources/Scripts/app/services/notificationService.js">
+      <publishTime>03/28/2019 22:02:32</publishTime>
+    </File>
+    <File Include="Resources/Scripts/vendor/other/datatables.js">
+      <publishTime>03/28/2019 23:26:19</publishTime>
+    </File>
+    <File Include="Resources/Scripts/vendor/other/loading-bar.js">
+      <publishTime>03/28/2019 21:40:51</publishTime>
+    </File>
+    <File Include="Resources/Scripts/vendor/other/toastr.js">
+      <publishTime>03/28/2019 21:40:51</publishTime>
+    </File>
+    <File Include="Resources/Styles/app/site.css">
+      <publishTime>03/29/2019 09:05:02</publishTime>
+    </File>
+    <File Include="Resources/Styles/vendor/other/datatables.css">
+      <publishTime>03/29/2019 00:17:55</publishTime>
+    </File>
+    <File Include="Resources/Styles/vendor/other/loading-bar.css">
+      <publishTime>08/06/2018 13:53:19</publishTime>
+    </File>
+    <File Include="Resources/Styles/vendor/other/toastr.css">
+      <publishTime>08/06/2018 13:53:19</publishTime>
+    </File>
+    <File Include="Root.Master">
+      <publishTime>03/29/2019 08:59:20</publishTime>
+    </File>
+    <File Include="Web.config">
+      <publishTime>03/29/2019 09:10:02</publishTime>
+    </File>
+  </ItemGroup>
+</Project>
